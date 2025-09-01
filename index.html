@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Samskruta Vahini Foundation</title>
+  <!-- Tailwind CDN (easy mode) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .btn{border-radius:12px;padding:.65rem 1rem;font-weight:600;display:inline-flex;align-items:center;justify-content:center}
+    .btn-primary{color:#fff;background:#059669}.btn-primary:hover{background:#047857}
+    .btn-outline{background:#fff;border:1px solid #cbd5e1;color:#0f172a}.btn-outline:hover{background:#f8fafc}
+    .card{border:1px solid #e5e7eb;background:#fff;border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.04)}
+    .card-header{padding:1rem;border-bottom:1px solid #e5e7eb;background:#ffffffa0}
+    .card-title{font-weight:600}
+    .card-content{padding:1rem}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-sky-50 via-white to-emerald-50 text-slate-800">
+  <!-- Nav -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-2xl bg-emerald-600 grid place-items-center text-white font-semibold">SV</div>
+        <div>
+          <p class="font-semibold leading-tight">Samskruta Vahini Foundation</p>
+          <p class="text-xs text-slate-500 -mt-1">Section 8 · Active since 2023</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#mission" class="hover:text-emerald-700">Mission</a>
+        <a href="#programs" class="hover:text-emerald-700">What we do</a>
+        <a href="#impact" class="hover:text-emerald-700">Impact</a>
+        <a href="#gallery" class="hover:text-emerald-700">Workshops</a>
+        <a href="#shop" class="hover:text-emerald-700">Shop</a>
+        <a href="#contact" class="hover:text-emerald-700">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="#donate" class="btn btn-primary">Donate</a>
+        <a href="#contact" class="btn btn-outline">Volunteer</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <div class="inline-flex items-center gap-2 bg-emerald-100 text-emerald-900 text-xs px-3 py-1 rounded-full mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-600"></span>
+          Uplifting women & children in Tier-3 India
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          Hope, Skills, and Opportunity— <span class="text-emerald-700">for every underprivileged life</span>
+        </h1>
+        <p class="mt-5 text-lg text-slate-600 max-w-2xl">
+          We conduct STEM workshops for students, train teachers, support girls’ health & self-defence,
+          fund education for the economically weaker sections, and enable women’s employment
+          through skill training in handicrafts and traditional food-making.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#donate" class="btn btn-primary">Donate Now</a>
+          <a href="#contact" class="btn btn-outline">Partner with Us</a>
+          <a href="#shop" class="inline-flex items-center font-medium text-emerald-800 hover:text-emerald-900">
+            <i data-lucide="shopping-bag" class="w-4 h-4 mr-2"></i> Shop Handicrafts <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-4 text-sm text-slate-600">
+          <div class="p-3 rounded-xl bg-white shadow-sm border">
+            <p class="font-semibold text-slate-900">Registered & Verified</p>
+            <p>MSME: UDYAM-WB-23-0047325</p>
+            <p>NGO DARPAN: WB/2023/0358542</p>
+            <p>Section 8 Company</p>
+          </div>
+          <div class="p-3 rounded-xl bg-white shadow-sm border">
+            <p class="font-semibold text-slate-900">Vision 2030</p>
+            <p>Active in Durgapur today; expanding across India by 2030.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border bg-white">
+          <img src="images/svf_web_01.jpg" alt="SVF field workshop" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-tr from-emerald-900/10 via-transparent to-transparent"></div>
+        </div>
+        <p class="text-xs text-slate-500 mt-2">Photo: SVF workshop supported by SAIL-CSR at Kanya Shiksha Niketan, Durgapur.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission" class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6">
+      <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="graduation-cap" class="w-5 h-5"></i> Education First</h3></div><div class="card-content text-slate-600">Our foundation is led by educationists with a deep belief in strong foundational learning for society. We run weekend STEM workshops, teacher training, and plan free coaching centres & open experimental labs.</div></div>
+      <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="handshake" class="w-5 h-5"></i> Community & Care</h3></div><div class="card-content text-slate-600">We organise medical awareness sessions on gynaecological and other issues, self-defence programs for girls, and provide financial aid like college admission and tuition fees to deserving students.</div></div>
+      <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="cpu" class="w-5 h-5"></i> Technology for Impact</h3></div><div class="card-content text-slate-600">Through an MoU with a women’s engineering college, student volunteers build real apps—school ERP, surveys, e-commerce, and outreach—to bridge CSR intent with on-ground outcomes.</div></div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section id="programs" class="py-14 md:py-20 bg-white border-y">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold">What we do</h2>
+      <p class="text-slate-600 mt-2 max-w-3xl">Clear, outcome-driven initiatives designed for Tier-3 realities.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="graduation-cap" class="w-5 h-5"></i> Student Workshops (STEM)</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Interdisciplinary STEM learning & organic farming modules.</li><li>Weekend format to suit school schedules.</li><li>SAIL-CSR supported workshops in Durgapur.</li></ul></div></div>
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="shield" class="w-5 h-5"></i> Health & Self-Defence</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Medical awareness for girls & women on gynaecological and other issues.</li><li>Self-defence workshops for confidence & safety.</li></ul></div></div>
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="cpu" class="w-5 h-5"></i> Teacher Training</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Activity-based, interdisciplinary methods per NEP.</li><li>Google Forms for assignments & data collection.</li><li>Enable low-budget schools to compete with corporate schools.</li></ul></div></div>
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="coins" class="w-5 h-5"></i> Financial Support (Education)</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Admission fee & tuition fee support for underprivileged students.</li><li>Focus on girls and economically weaker sections.</li></ul></div></div>
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="shopping-bag" class="w-5 h-5"></i> Skill Development & Training</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>Handicrafts and Indian traditional food-making.</li><li>Direct sales of products made by women trainees.</li><li>E-commerce storefront launching on this site.</li></ul></div></div>
+        <div class="card"><div class="card-header"><h3 class="card-title flex items-center gap-2"><i data-lucide="cpu" class="w-5 h-5"></i> Technology & CSR</h3></div><div class="card-content text-slate-600"><ul class="list-disc ml-5 space-y-1"><li>MoU with women’s engineering college for volunteer internships.</li><li>Student-built apps: School ERP, surveys, e-commerce & outreach.</li><li>Bridge CSR inputs with trackable learning outcomes.</li></ul></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="card"><div class="card-content pt-6"><p class="text-4xl font-bold">2023</p><p class="text-slate-600">Founded in Durgapur</p></div></div>
+      <div class="card"><div class="card-content pt-6"><p class="text-4xl font-bold">2030</p><p class="text-slate-600">Pan-India expansion vision</p></div></div>
+      <div class="card"><div class="card-content pt-6"><p class="text-4xl font-bold">66.66%</p><p class="text-slate-600">Shares held by women & educationists</p></div></div>
+      <div class="card"><div class="card-content pt-6"><p class="text-4xl font-bold">4+</p><p class="text-slate-600">Core program areas</p></div></div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-14 md:py-20 bg-white border-y">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <h2 class="text-3xl font-bold">Workshops & Field Moments</h2>
+          <p class="text-slate-600 mt-2">A glimpse of our on-ground activities.</p>
+        </div>
+        <a href="#contact" class="hidden md:inline-flex items-center text-emerald-800 hover:text-emerald-900 font-medium">Invite a workshop <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i></a>
+      </div>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="rounded-2xl overflow-hidden border shadow-sm bg-white"><img src="images/svf_web_01.jpg" class="w-full h-60 object-cover"/><div class="p-3 text-sm text-slate-600">Student workshop — STEM/Organic Farming (Durgapur)</div></div>
+        <div class="rounded-2xl overflow-hidden border shadow-sm bg-white"><img src="images/svf_web_02.jpg" class="w-full h-60 object-cover"/><div class="p-3 text-sm text-slate-600">Teacher training — Activity-based learning</div></div>
+        <div class="rounded-2xl overflow-hidden border shadow-sm bg-white"><img src="images/svf_web_03.jpg" class="w-full h-60 object-cover"/><div class="p-3 text-sm text-slate-600">Women’s skill training — Handicrafts & traditional foods</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop teaser -->
+  <section id="shop" class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="card border-emerald-200">
+        <div class="card-content p-6 md:p-10 grid md:grid-cols-3 gap-8 items-center">
+          <div class="md:col-span-2">
+            <h3 class="text-2xl font-bold flex items-center gap-2"><i data-lucide="shopping-bag" class="w-6 h-6"></i> E-Commerce (Coming Soon)</h3>
+            <p class="text-slate-600 mt-2 max-w-2xl">Support our trainees by buying handmade products—from crafts to traditional foods. Every purchase funds education, health, and training programs.</p>
+            <div class="mt-4 flex gap-3">
+              <button class="btn btn-primary" disabled>Browse Products</button>
+              <a href="#contact" class="btn btn-outline">Become a Seller partner</a>
+            </div>
+          </div>
+          <div class="rounded-xl overflow-hidden border bg-white">
+            <img src="images/svf_web_02.jpg" alt="Handcrafted products by trainees" class="w-full h-56 object-cover"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" class="py-14 md:py-20 bg-emerald-50/60 border-y">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h3 class="text-3xl font-bold">Donate to Samskruta Vahini Foundation</h3>
+        <p class="text-slate-600 mt-2">Your support powers workshops, teacher training, girls’ health & safety, and women’s skill development.</p>
+        <div class="mt-5 grid gap-4">
+          <a class="btn btn-primary" href="#" title="Replace with your Razorpay payment link">Pay with Razorpay (configure link)</a>
+          <div class="text-sm text-slate-700 card"><div class="card-content space-y-1">
+            <p><b>UPI ID:</b> svf@okhdfcbank (replace)</p>
+            <p><b>Account:</b> Samskruta Vahini Foundation</p>
+            <p><b>Account No:</b> 0000000000 (replace)</p>
+            <p><b>IFSC:</b> HDFC000000 (replace)</p>
+          </div></div>
+        </div>
+      </div>
+      <div class="rounded-2xl overflow-hidden border bg-white">
+        <img src="images/svf_web_03.jpg" alt="Teacher training and STEM activities" class="w-full h-80 object-cover"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-14 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10">
+      <div>
+        <h3 class="text-3xl font-bold">Get in touch</h3>
+        <p class="text-slate-600 mt-2 max-w-2xl">Invite a workshop, explore partnerships, or ask a question—our team will respond within 48 hours.</p>
+        <div class="mt-6 space-y-3 text-slate-700">
+          <p class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> 9434981918 / 9818779647</p>
+          <p class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> sumskrutis@gmail.com</p>
+          <p class="flex items-start gap-2"><i data-lucide="map-pin" class="w-4 h-4 mt-0.5"></i> 3A, Udichi Apartments, Shankarpur, Durgapur-05</p>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="card grid gap-4 p-6">
+        <div>
+          <label class="text-sm font-medium">Name</label>
+          <input name="name" required class="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="Your full name"/>
+        </div>
+        <div>
+          <label class="text-sm font-medium">Email</label>
+          <input type="email" name="email" required class="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="you@example.com"/>
+        </div>
+        <div>
+          <label class="text-sm font-medium">Message</label>
+          <textarea name="message" rows="5" required class="w-full border rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="How can we help?"></textarea>
+        </div>
+        <button class="btn btn-primary">Send</button>
+        <p class="text-xs text-slate-500">By submitting, you consent to be contacted about SVF programs and partnerships.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t bg-white/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm text-slate-600 grid md:grid-cols-2 gap-4">
+      <div>
+        <p class="font-semibold text-slate-800">Samskruta Vahini Foundation</p>
+        <p>Section 8 Company • MSME UDYAM-WB-23-0047325 • NGO DARPAN WB/2023/0358542</p>
+        <p class="mt-1">© <span id="y"></span> SVF. All rights reserved.</p>
+      </div>
+      <div class="md:text-right">
+        <a href="#donate" class="hover:text-emerald-700">Donate</a>
+        <span class="mx-2">•</span>
+        <a href="#contact" class="hover:text-emerald-700">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear(); lucide.createIcons();</script>
+</body>
+</html>
